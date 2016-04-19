@@ -2,6 +2,7 @@ package mvc;
 
 import java.util.Properties;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import com.dry.util.PropsUtil;
@@ -18,8 +19,7 @@ public class TestProps
 	public void printProps()
 	{
 		Properties props = PropsUtil.loadProps("config.properties");
-		
-		System.out.println(props.get("jdbc.username"));
+		Assert.assertEquals("demo",props.get("jdbc.username"));
 		
 	}
 }
