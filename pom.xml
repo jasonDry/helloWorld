@@ -44,6 +44,17 @@
   		<artifactId>commons-collections4</artifactId>
   		<version>4.0</version>
   	</dependency>
+  	<dependency>
+  		<groupId>org.apache.commons</groupId>
+  		<artifactId>commons-dbcp2</artifactId>
+  		<version>2.0.1</version>
+  	</dependency>
+  	<dependency>
+	<groupId>commons-dbutils</groupId>
+	<artifactId>commons-dbutils</artifactId>
+	<version>1.6</version>
+</dependency>
+  	
   </dependencies>
   
   <!-- 指定编译项目的编码格式 -->
